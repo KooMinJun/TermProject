@@ -5,40 +5,40 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="255346632914430"
+    timestamp="15844780662230"
     token="209566147050622376"
-    verifier="COMPATIBLE" >
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="263" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="24" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
     <artifact
-        location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="255321529709202"
+        timestamp="15786124429278"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\outputs\apk\TermProject-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="255346632914430"
-        verifier="COMPATIBLE" >
+        timestamp="15844780662230"
+        verifier="FIELD_TYPE_CHANGE" >
         <artifact
-            location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

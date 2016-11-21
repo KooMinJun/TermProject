@@ -1,11 +1,16 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Base application theme.  액션바 안보이게 parent설정-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- title 숨기기 -->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!-- 전체화면 만들기-->
+        <!--<item name="android:windowFullscreen">true</item>-->
     </style>
 
 </resources>
