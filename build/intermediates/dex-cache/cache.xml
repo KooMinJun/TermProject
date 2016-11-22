@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="b550820db8395c60374669526b2b271418048a7d">
+        sha1="8a7468b8af3feb073eec6caff2f07e86a22cabac">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_17dd03f8b7c7c99f968a7bdca7fe79b01c0a69ed\classes.dex" />
     </item>
     <item
@@ -165,6 +165,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.bcgdv.asia.lib\ticktock\1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="74781d914a58e62bb7810afd5a9635a7ce6fe54e">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.bcgdv.asia.lib-ticktock-1.2_b8f941981bd44c14ba99ad77e9426d78460d3f32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -187,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="7e26fc6fa749f7c1cbf2633b25a5340c1053784d">
+        sha1="ed16ef04c8491ef2db870ecc7ac2807273a47537">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ffefd6a4b91e298d056a364c19d79c05fb87ed1\classes.dex" />
     </item>
 

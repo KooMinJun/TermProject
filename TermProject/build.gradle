@@ -29,4 +29,7 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
     //gif를 위한 오픈소스 라이브러리
     compile 'com.android.support:design:25.0.1'
+    //시간 진행상황 보여주는 라이브러리
+    compile 'com.bcgdv.asia.lib:ticktock:1.2'
+
 }

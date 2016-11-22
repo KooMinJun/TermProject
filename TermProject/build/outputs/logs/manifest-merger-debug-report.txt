@@ -26,6 +26,7 @@ MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Koo\AndroidStudio
 MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:transition:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.bcgdv.asia.lib:ticktock:1.2] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.bcgdv.asia.lib\ticktock\1.2\AndroidManifest.xml:11:5-15:19
 	android:label
 		ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -68,6 +69,7 @@ MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Koo\An
 MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.bcgdv.asia.lib:ticktock:1.2] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.bcgdv.asia.lib\ticktock\1.2\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

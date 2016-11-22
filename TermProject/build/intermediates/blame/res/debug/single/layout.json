@@ -16,16 +16,16 @@
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -52,16 +52,16 @@
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\fragment3.xml",
