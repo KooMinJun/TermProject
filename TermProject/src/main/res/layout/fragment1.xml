@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <com.bcgdv.asia.lib.ticktock.TickTockView
+        android:id="@+id/view_ticktock_countup"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        app:tickAutoFitText="true"
+        app:tickMiddleColor="#333333"
+        app:tickText="00h 00m 00s"
+        app:tickMoveCounterClockwise="true"
+        app:tickTextColor="#CCCCCC"
+        app:tickDotRadius="6dp"
+        app:tickEmptyRingColor="@android:color/white"
+        app:tickFillRingColor="@color/colorGreen"
+        app:tickRingThickness="3dp" />
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button
         android:id="@+id/countUp"
         android:layout_width="wrap_content"
@@ -18,5 +41,22 @@
         android:text="START"
         android:textSize="30dp"
         android:textColor="@color/button_selector"/>
+
+    <Button
+        android:id="@+id/countRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/button_shape"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Record"
+        android:textSize="30dp"
+        android:textColor="@color/button_selector"/>
+    </LinearLayout>
 
 </RelativeLayout>

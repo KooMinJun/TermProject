@@ -60,7 +60,7 @@ ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\And
 	android:name
 		ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:21:19-50
 activity#my.kmucs.com.koo_timer.CountDownActivity
-ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:22:9-64
+ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:22:9-65
 	android:name
 		ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:22:19-52
 uses-sdk

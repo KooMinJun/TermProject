@@ -24,7 +24,8 @@
         </activity>
         <activity android:name="my.kmucs.com.koo_timer.MainActivity" />
         <activity android:name="my.kmucs.com.koo_timer.CountUpActivity" />
-        <activity android:name="my.kmucs.com.koo_timer.CountDownActivity" />
+        <activity android:name="my.kmucs.com.koo_timer.CountDownActivity" >
+        </activity>
     </application>
 
 </manifest>

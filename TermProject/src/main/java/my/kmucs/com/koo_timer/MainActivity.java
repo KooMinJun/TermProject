@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         tabs.addTab(tabs.newTab().setText("COUNT DOWN"));
         tabs.addTab(tabs.newTab().setText("통계"));
 
+
         tabs.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener(){
 
             @Override

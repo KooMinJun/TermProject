@@ -32,4 +32,5 @@ dependencies {
     //시간 진행상황 보여주는 라이브러리
     compile 'com.bcgdv.asia.lib:ticktock:1.2'
 
+    compile 'junit:junit:4.12'
 }
