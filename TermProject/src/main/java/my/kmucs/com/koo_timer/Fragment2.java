@@ -35,7 +35,6 @@ public class Fragment2 extends Fragment {
 
 
         countDown = (Button)rootView.findViewById(R.id.countDown);
-//        i = new Intent(getActivity(), CountDownActivity.class);
         edtHour = (EditText)rootView.findViewById(R.id.edtHour);
         edtMin = (EditText)rootView.findViewById(R.id.edtMin);
         edtSec = (EditText)rootView.findViewById(R.id.edtSec);
@@ -47,9 +46,25 @@ public class Fragment2 extends Fragment {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View v) {
-                hour = Integer.parseInt(edtHour.getText().toString());
-                min = Integer.parseInt(edtMin.getText().toString());
-                sec = Integer.parseInt(edtSec.getText().toString());
+                if(edtHour.getText().toString().matches("")){
+                    hour = 0;
+                }
+                else{
+                    hour = Integer.parseInt(edtHour.getText().toString());
+                }
+
+                if(edtMin.getText().toString().matches("")){
+                    min = 0;
+                }
+                else{
+                    min = Integer.parseInt(edtMin.getText().toString());
+                }
+                if(edtSec.getText().toString().matches("")){
+                    sec=0;
+                }
+                else{
+                    sec = Integer.parseInt(edtSec.getText().toString());
+                }
                 if(mCountDown != null){
                     mCountDown.setOnTickListener(new TickTockView.OnTickListener() {
                         @Override
@@ -69,6 +84,7 @@ public class Fragment2 extends Fragment {
                         }
                     });
                 }
+
                 starttime(hour, min, sec);
 
 

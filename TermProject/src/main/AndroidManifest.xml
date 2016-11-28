@@ -18,8 +18,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".CountUpActivity"></activity>
-        <activity android:name=".CountDownActivity"> </activity>
 
     </application>
 
