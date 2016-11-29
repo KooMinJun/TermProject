@@ -66,21 +66,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b095e67228d8e18f8dea6897a0aa09deb0f8db9d">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_17dd03f8b7c7c99f968a7bdca7fe79b01c0a69ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_36f675db60cfa04acd58b75d676f2889fa3a8812\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ab3db2ececfc8d89c2a939efd0ee1a2dd975e0f2">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_17dd03f8b7c7c99f968a7bdca7fe79b01c0a69ed\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -214,7 +214,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="26e62822026f249583c2d809274c9b3bcc178fb1">
+        sha1="6d73f24b12859755b675fbc8febe65ab4f896ce0">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ffefd6a4b91e298d056a364c19d79c05fb87ed1\classes.dex" />
     </item>
 

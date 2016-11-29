@@ -5,29 +5,29 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="109815282598689"
+    timestamp="158786725113690"
     token="209566147050622376"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="662" />
+        duration="570" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="366" />
+        duration="31" />
     <task
         name="verifier"
-        duration="202" />
+        duration="0" />
 
     <artifact
         location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\outputs\apk\TermProject-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="109815282598689"
+        timestamp="158786725113690"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\outputs\apk\TermProject-debug.apk"
