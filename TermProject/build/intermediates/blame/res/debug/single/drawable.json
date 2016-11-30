@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
@@ -38,6 +38,10 @@
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\button_statistic.xml",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\src\\main\\res\\drawable\\button_statistic.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -120,6 +124,10 @@
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\button_shape_timer.xml",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\src\\main\\res\\drawable\\button_shape_timer.xml"
+    },
+    {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
@@ -138,10 +146,6 @@
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\button_shape.xml",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\src\\main\\res\\drawable\\button_shape.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",

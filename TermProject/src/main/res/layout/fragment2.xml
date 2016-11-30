@@ -1,113 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="CountDown Timer"
-        android:textSize="24sp"/>
-
-    <LinearLayout
-        android:id="@+id/llSetTimer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvHeader"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/edtHour"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="00"
-            android:inputType="number"
-            android:textSize="40sp"
-            android:maxLength="4"
-            android:gravity="end"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hour "
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/edtMin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="00"
-            android:inputType="number"
-            android:textSize="40sp"
-            android:maxLength="4"
-            android:gravity="end"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Min "
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/edtSec"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="00"
-            android:inputType="number"
-            android:textSize="40sp"
-            android:maxLength="4"
-            android:gravity="end"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sec"
-            android:textSize="20sp" />
-
-    </LinearLayout>
-    <com.bcgdv.asia.lib.ticktock.TickTockView
-        android:id="@+id/view_ticktock_countdown"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="16dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_centerInParent="true"
-        app:tickAutoFitText="true"
-        app:tickMiddleColor="#333333"
-        app:tickText="00h 00m 00s"
-        app:tickMoveCounterClockwise="true"
-        app:tickTextColor="#CCCCCC"
-        app:tickDotRadius="6dp"
-        app:tickEmptyRingColor="@android:color/white"
-        app:tickFillRingColor="@color/colorGreen"
-        app:tickRingThickness="3dp" />
-
-
-
-
-
-
-
     <Button
-        android:id="@+id/countDown"
+        android:id="@+id/frag_btn03"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:background="@drawable/button_shape"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
-        android:text="START"
-        android:textSize="30dp"
-        android:textColor="@color/button_selector"/>
+        android:text="세번째"/>
 
-</RelativeLayout>
+</LinearLayout>

@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="b095e67228d8e18f8dea6897a0aa09deb0f8db9d">
+        sha1="efd4c1df2626de17afd831b9d8d0393663b5a53b">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_17dd03f8b7c7c99f968a7bdca7fe79b01c0a69ed\classes.dex" />
     </item>
     <item
@@ -214,7 +214,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="6d73f24b12859755b675fbc8febe65ab4f896ce0">
+        sha1="cf30ecab0cb40a103fe2b45c10cb9420ba592785">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ffefd6a4b91e298d056a364c19d79c05fb87ed1\classes.dex" />
     </item>
 
