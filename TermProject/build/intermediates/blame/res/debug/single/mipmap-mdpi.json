@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\saveicon.png",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\src\\main\\res\\mipmap-mdpi\\saveicon.png"
+    },
+    {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }

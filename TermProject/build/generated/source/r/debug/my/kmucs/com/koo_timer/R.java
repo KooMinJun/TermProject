@@ -2706,27 +2706,27 @@ containing a value of this type.
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020050;
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
-        public static final int button_shape_timer=0x7f020053;
-        public static final int button_statistic=0x7f020054;
-        public static final int countup_textview=0x7f020055;
-        public static final int design_bottom_navigation_item_background=0x7f020056;
-        public static final int design_fab_background=0x7f020057;
-        public static final int design_ic_visibility=0x7f020058;
-        public static final int design_snackbar_background=0x7f020059;
-        public static final int navigation_empty_icon=0x7f02005a;
-        public static final int notification_action_background=0x7f02005b;
-        public static final int notification_bg=0x7f02005c;
-        public static final int notification_bg_low=0x7f02005d;
-        public static final int notification_bg_low_normal=0x7f02005e;
-        public static final int notification_bg_low_pressed=0x7f02005f;
-        public static final int notification_bg_normal=0x7f020060;
-        public static final int notification_bg_normal_pressed=0x7f020061;
-        public static final int notification_icon_background=0x7f020062;
+        public static final int button_shape_savememo=0x7f020053;
+        public static final int button_shape_timer=0x7f020054;
+        public static final int button_statistic=0x7f020055;
+        public static final int countup_textview=0x7f020056;
+        public static final int design_bottom_navigation_item_background=0x7f020057;
+        public static final int design_fab_background=0x7f020058;
+        public static final int design_ic_visibility=0x7f020059;
+        public static final int design_snackbar_background=0x7f02005a;
+        public static final int navigation_empty_icon=0x7f02005b;
+        public static final int notification_action_background=0x7f02005c;
+        public static final int notification_bg=0x7f02005d;
+        public static final int notification_bg_low=0x7f02005e;
+        public static final int notification_bg_low_normal=0x7f02005f;
+        public static final int notification_bg_low_pressed=0x7f020060;
+        public static final int notification_bg_normal=0x7f020061;
+        public static final int notification_bg_normal_pressed=0x7f020062;
+        public static final int notification_icon_background=0x7f020063;
         public static final int notification_template_icon_bg=0x7f020066;
         public static final int notification_template_icon_low_bg=0x7f020067;
-        public static final int notification_tile_bg=0x7f020063;
-        public static final int notify_panel_notification_icon_bg=0x7f020064;
-        public static final int stopwatch=0x7f020065;
+        public static final int notification_tile_bg=0x7f020064;
+        public static final int notify_panel_notification_icon_bg=0x7f020065;
     }
     public static final class id {
         public static final int Rec=0x7f0d0074;
@@ -2965,6 +2965,7 @@ containing a value of this type.
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
+        public static final int saveicon=0x7f030001;
     }
     public static final class raw {
         public static final int svg_stopwatch_dribbble=0x7f060000;
@@ -3014,6 +3015,11 @@ containing a value of this type.
         public static final int Animation_AppCompat_Dialog=0x7f09009c;
         public static final int Animation_AppCompat_DropDownUp=0x7f09009d;
         public static final int Animation_Design_BottomSheetDialog=0x7f09009e;
+        /**  title 숨기기 
+<item name="windowNoTitle">true</item>
+ 전체화면 만들기
+<item name="android:windowFullscreen">true</item>
+         */
         public static final int AppTheme=0x7f09009f;
         public static final int Base_AlertDialog_AppCompat=0x7f0900a0;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0900a1;
