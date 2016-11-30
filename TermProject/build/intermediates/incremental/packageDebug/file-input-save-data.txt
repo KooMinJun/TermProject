@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Dec 01 04:30:32 KST 2016
+#Thu Dec 01 04:42:18 KST 2016
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\com.android.support-recyclerview-v7-25.0.1_5c5aa75c541d9b337c0c88082ce47ac70327a1a0\\classes.dex
 14.set=ANDROID_RESOURCE

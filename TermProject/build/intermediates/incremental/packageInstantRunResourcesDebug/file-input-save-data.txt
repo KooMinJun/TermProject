@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Dec 01 04:30:30 KST 2016
+#Thu Dec 01 04:42:15 KST 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_template_lines_media.xml

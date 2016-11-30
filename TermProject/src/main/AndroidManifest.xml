@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="my.kmucs.com.koo_timer">
 
+    <!--화면권한-->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
 
 

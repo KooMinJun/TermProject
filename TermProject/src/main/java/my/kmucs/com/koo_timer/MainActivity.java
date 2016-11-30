@@ -7,6 +7,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.PowerManager;
 import android.os.SystemClock;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -18,6 +19,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
+    PowerManager powerManager;
+    PowerManager.WakeLock wakeLock;
+    int field = 0x00000020;
+
     Button countUp;
 
     Fragment1 fragment1;
@@ -55,6 +60,16 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //화면관리하기위한 코드선언부
+        try{
+            field = PowerManager.class.getClass().getField("PROXIMITY_SCREEN_OFF_WAKE_LOCK").getInt(null);
+        } catch (Throwable ignored){
+
+        }
+        powerManager = (PowerManager)getSystemService(POWER_SERVICE);
+        wakeLock = powerManager.newWakeLock(field, getLocalClassName());
+
 
         //시스템서비스로부터 SensorManager 객체를 얻는다.
         sensorManager = (SensorManager)getSystemService(Context.SENSOR_SERVICE);
@@ -185,6 +200,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 //잠깐 스톱워치를 멈췄다가 다시 시작하면 기준점이 변하게 되므로
                 mBaseTime += (now - mPauseTime);
                 mTimer.sendEmptyMessage(0);
+                if(!wakeLock.isHeld()){
+                    wakeLock.acquire();
+                }
 
             } else {
 
@@ -193,7 +211,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 mStatus = 3;
                 //far
                 Toast.makeText(getApplicationContext(), "far", Toast.LENGTH_SHORT).show();
-
+                if(wakeLock.isHeld()){
+                    wakeLock.release();
+                }
             }
         }
     }
