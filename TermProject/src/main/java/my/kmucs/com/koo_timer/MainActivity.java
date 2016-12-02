@@ -19,6 +19,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
+
+
     PowerManager powerManager;
     PowerManager.WakeLock wakeLock;
     int field = 0x00000020;
@@ -100,11 +102,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     case "START":
                         now = mPauseTime= mBaseTime = SystemClock.elapsedRealtime();
                         buttonClickTimeStart();
-                        countUp.setText("RESET");
+                        countUp.setText("SAVE & RESET");
                         Toast.makeText(getApplicationContext(),"휴대폰 화면을 엎어놓으면 스톱워치가 시작합니다.\n휴대폰 화면을 다시 돌리면 스톱워치가 일시정지 합니다.",Toast.LENGTH_LONG).show();
                         break;
 
-                    case "RESET":
+                    case "SAVE & RESET":
                         buttonClickTimeStop();
                         mEllapse.setText("00:00:00");
                         countUp.setText("START");
@@ -174,6 +176,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         super.onStart();
     }
 
+    //액티비티 나갈때
     @Override
     public void onStop() {
         super.onStop();
@@ -234,5 +237,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
     }
 }

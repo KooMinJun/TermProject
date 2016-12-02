@@ -5,6 +5,10 @@
     <!--화면권한-->
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
+    <!--카메라후레쉬권한-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera2"/>
+
 
 
     <application
