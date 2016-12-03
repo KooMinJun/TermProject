@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\And
 	android:name
 		ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:10:19-58
 application
-ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:14:5-29:19
+ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:14:5-30:19
 MERGED from [com.android.support:design:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:25:5-20
@@ -38,7 +38,6 @@ MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Koo\AndroidStudio
 MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:transition:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:22:5-20
-MERGED from [com.bcgdv.asia.lib:ticktock:1.2] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.bcgdv.asia.lib\ticktock\1.2\AndroidManifest.xml:11:5-15:19
 	android:label
 		ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:17:9-41
 	android:supportsRtl
@@ -67,6 +66,10 @@ activity#my.kmucs.com.koo_timer.MainActivity
 ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:27:9-59
 	android:name
 		ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:27:19-47
+activity#my.kmucs.com.koo_timer.StatisticActivity
+ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:28:9-64
+	android:name
+		ADDED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml:28:19-52
 uses-sdk
 INJECTED from C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:21:5-23:62
@@ -81,7 +84,7 @@ MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Koo\An
 MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.bcgdv.asia.lib:ticktock:1.2] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.bcgdv.asia.lib\ticktock\1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.github.lecho\hellocharts-library\1.5.8\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.0.1] C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

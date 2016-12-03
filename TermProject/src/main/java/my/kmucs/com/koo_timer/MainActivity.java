@@ -1,14 +1,20 @@
 package my.kmucs.com.koo_timer;
 
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.icu.util.Calendar;
+import android.icu.util.GregorianCalendar;
+import android.icu.util.TimeZone;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.PowerManager;
 import android.os.SystemClock;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -20,6 +26,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
+    Calendar cal;
+    TimeZone timeZone;
+    int year, month, day;
+    String hour, minute, second;
+
+    MyDB mydb;
+    SQLiteDatabase sqlite;
+    String sql;
 
     PowerManager powerManager;
     PowerManager.WakeLock wakeLock;
@@ -58,10 +72,15 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     };
 
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        //데이터베이스 연결
+        mydb = new MyDB(this);
 
         //화면관리하기위한 코드선언부
         try{
@@ -96,6 +115,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         countUp = (Button)findViewById(R.id.countUp);
 
         countUp.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View v) {
                 switch (countUp.getText().toString()){
@@ -108,6 +128,27 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
                     case "SAVE & RESET":
                         buttonClickTimeStop();
+
+                        cal = new GregorianCalendar();
+                        timeZone = TimeZone.getTimeZone("Asia/Seoul");
+                        cal.setTimeZone(timeZone);
+
+                        year = cal.get(Calendar.YEAR);
+                        month = cal.get(Calendar.MONTH) + 1;
+                        day = cal.get(Calendar.DAY_OF_MONTH);
+                        hour = mEllapse.getText().toString().substring(0,2);
+                        minute = mEllapse.getText().toString().substring(3,5);
+                        second = mEllapse.getText().toString().substring(6,8);
+
+                        sqlite = mydb.getWritableDatabase(); //읽기쓰기가능한속성
+                        sql = "INSERT INTO timeRecord(year, month, day, hour, min, sec) VALUES('" +year+"', '"+month+"', '" +day+ "', '" +hour+"', '" +minute+ "','"+ second+"')";
+
+                        Log.d("SQL : ", sql);
+                        sqlite.execSQL(sql);
+
+                        sqlite.close();
+                        Toast.makeText(getApplicationContext(), "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show();
+
                         mEllapse.setText("00:00:00");
                         countUp.setText("START");
                         break;
@@ -229,7 +270,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         long now = SystemClock.elapsedRealtime();
         long ell = now - mBaseTime; //현재시간과 지난 시간을 뺴서 ell값을 구하고
         //아래에서 포맷을 예쁘게 바꾼다음 리턴해준다.
-        String sEll = String.format("%02d:%02d:%02d", ell/1000/60, (ell/1000)%60, (ell % 1000)/10);
+        // millsec : (ell % 1000) / 10
+        // sec : (ell/1000)%60
+        // min :
+
+        String sEll = String.format("%02d:%02d:%02d", (ell/(1000*60*60)) % 24, (ell/(1000*60))%60, (ell/1000)%60);
         return sEll;
     }
 

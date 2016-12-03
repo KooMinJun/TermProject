@@ -30,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name="my.kmucs.com.koo_timer.MainActivity" />
+        <activity android:name="my.kmucs.com.koo_timer.StatisticActivity" />
     </application>
 
 </manifest>

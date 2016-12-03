@@ -18,7 +18,7 @@
         android:layout_height="match_parent">
 
         <Button
-            android:background="@drawable/button_shape_savememo"
+            android:background="@drawable/button_shape_fragment"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
