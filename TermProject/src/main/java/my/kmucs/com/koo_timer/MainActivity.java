@@ -2,6 +2,7 @@ package my.kmucs.com.koo_timer;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.hardware.Sensor;
@@ -42,10 +43,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     Double longitude;
     //위치 정보를 받을 리스너 생성
     GPSListener gpsListener = new GPSListener();
-    long minTime = 1000; //1000 = 1초
-    float minDistance = 1; //1미터
+    long minTime = 5000; //1000 = 1초
+    float minDistance = 5; //1미터
     int etcStr; //분류를 위한 변수
     TextView txtLocation;
+    Intent mapIntent;
 
 
 
@@ -102,6 +104,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         setContentView(R.layout.activity_main);
 
         checkDangerousPermissions();
+        mapIntent = new Intent(this, MapsActivity.class);
 
 
         //데이터베이스 연결
@@ -141,6 +144,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         txtLocation = (TextView)findViewById(R.id.txt_location);
 
+        //현재위치를 주소로 보여주는 함수
+        printLocation();
+
         countUp.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
@@ -151,7 +157,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                         buttonClickTimeStart();
                         countUp.setText("SAVE & RESET");
                         Toast.makeText(getApplicationContext(),"휴대폰 화면을 엎어놓으면 스톱워치가 시작합니다.\n휴대폰 화면을 다시 돌리면 스톱워치가 일시정지 합니다.",Toast.LENGTH_LONG).show();
-                        printLocation();
+
                         break;
 
                     case "SAVE & RESET":
@@ -179,7 +185,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
                         mEllapse.setText("00:00:00");
                         countUp.setText("START");
-                        txtLocation.setText("\n지금 나는 어디서 공부하고 있을까?");
                         break;
                 }
             }
@@ -188,7 +193,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         txtLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                mapIntent.putExtra("lat", latitude);
+                mapIntent.putExtra("lng", longitude);
+                startActivity(mapIntent);
             }
         });
 
