@@ -8,6 +8,10 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="24" />
 
+    <!-- 위치정보 얻어오기위해서 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <!-- 화면권한 -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 

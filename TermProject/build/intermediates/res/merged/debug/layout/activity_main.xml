@@ -44,6 +44,14 @@
             android:text="START"
             android:textSize="30dp"
             android:textColor="@color/button_selector"/>
+        <TextView
+            android:id="@+id/txt_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryBright"
+            android:text="\n지금 나는 어디서 공부하고 있을까?"
+            android:textSize="15dp"/>
 
 
     </LinearLayout>
