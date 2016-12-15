@@ -144,7 +144,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         txtLocation = (TextView)findViewById(R.id.txt_location);
 
-        //현재위치를 주소로 보여주는 함수
         printLocation();
 
         countUp.setOnClickListener(new View.OnClickListener() {
@@ -182,7 +181,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
                         sqlite.close();
                         Toast.makeText(getApplicationContext(), "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show();
-
                         mEllapse.setText("00:00:00");
                         countUp.setText("START");
                         break;
@@ -196,8 +194,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 mapIntent.putExtra("lat", latitude);
                 mapIntent.putExtra("lng", longitude);
                 startActivity(mapIntent);
+
             }
         });
+
+
 
 
         tabs.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener(){
@@ -258,7 +259,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 latitude = lastLocation.getLatitude();
                 longitude = lastLocation.getLongitude();
 
-                txtLocation.setText("\n현재 위치 : " + getAddress(this,latitude,longitude));
+                txtLocation.setText("\n현재위치 : " + getAddress(getApplicationContext(),latitude,longitude));
 
             }
         }catch (SecurityException e){
@@ -429,7 +430,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             String msg = "\n위도 : " + latitude + "\n경도 : " + longitude;
             Log.i("GPSListener", msg);
 
-            Toast.makeText(getApplicationContext(), "위치정보가 업데이트되었습니다. ", Toast.LENGTH_SHORT).show();
+
+            Toast.makeText(getApplicationContext(), "위치정보가 업데이트되었습니다. " , Toast.LENGTH_SHORT).show();
+
+            txtLocation.setText("\n현재위치 : " + getAddress(getApplicationContext(),latitude,longitude));
 
 
         }

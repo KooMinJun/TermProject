@@ -4534,6 +4534,11 @@ containing a value of this type.
         public static final int Animation_AppCompat_Dialog=0x7f0a009d;
         public static final int Animation_AppCompat_DropDownUp=0x7f0a009e;
         public static final int Animation_Design_BottomSheetDialog=0x7f0a009f;
+        /**  title 숨기기 
+<item name="windowNoTitle">true</item>
+ 전체화면 만들기
+<item name="android:windowFullscreen">true</item>
+         */
         public static final int AppTheme=0x7f0a00a0;
         public static final int Base_AlertDialog_AppCompat=0x7f0a00a1;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0a00a2;
