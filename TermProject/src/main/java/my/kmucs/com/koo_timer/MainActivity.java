@@ -157,6 +157,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                         countUp.setText("SAVE & RESET");
                         Toast.makeText(getApplicationContext(),"휴대폰 화면을 엎어놓으면 스톱워치가 시작합니다.\n휴대폰 화면을 다시 돌리면 스톱워치가 일시정지 합니다.",Toast.LENGTH_LONG).show();
 
+
                         break;
 
                     case "SAVE & RESET":
@@ -176,10 +177,23 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                         sqlite = mydb.getWritableDatabase(); //읽기쓰기가능한속성
                         sql = "INSERT INTO timeRecord(year, month, day, hour, min, sec) VALUES('" +year+"', '"+month+"', '" +day+ "', '" +hour+"', '" +minute+ "','"+ second+"')";
 
+
                         Log.d("SQL : ", sql);
                         sqlite.execSQL(sql);
 
                         sqlite.close();
+
+                        // 임의의 데이터값을 넣어서 체크해보려고
+//                        sqlite = mydb.getWritableDatabase();
+//                        for(int i = 1 ; i<=15 ; i++) {
+//                            sql = "INSERT INTO timeRecord(year, month, day, hour, min, sec) VALUES('" + 2016 + "', '" + 12 + "', '" + i + "', '" + 0 + "', '" + (int)(Math.random()*10) + "','" + (int)(Math.random()*60)+ "')";
+//                            Log.d("SQL : ", sql);
+//                            sqlite.execSQL(sql);
+//
+//
+//                        }
+//                        sqlite.close();
+
                         Toast.makeText(getApplicationContext(), "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show();
                         mEllapse.setText("00:00:00");
                         countUp.setText("START");
