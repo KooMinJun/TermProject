@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TIME HELPER</string>
+    <string name="fragment2_save_alert_title_question">정말로 삭제하시겠습니까?</string>
+    <string name="fragment2_save_alert_msg_delete">이전의 기록된 누적시간이 모두 초기화 됩니다.</string>
+    <string name="fragment2_save_alert_button_yes">삭제</string>
+    <string name="fragment2_save_alert_button_no">취소</string>
+
+
 </resources>

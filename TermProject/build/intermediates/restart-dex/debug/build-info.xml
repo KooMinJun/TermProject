@@ -5,68 +5,33 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="22013884968115"
+    timestamp="28484934472079"
     token="209566147050622376"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="503" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="29" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="100" />
+        duration="0" />
     <task
         name="verifier"
-        duration="14" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\outputs\apk\TermProject-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="21708782367928"
+        timestamp="28484934472079"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\outputs\apk\TermProject-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="21784238540787"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\builds\debug\21784238540787\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="21797787928084"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\builds\debug\21797787928084\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="21888621794471"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\builds\debug\21888621794471\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="21968131737619"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\builds\debug\21968131737619\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="22013884968115"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

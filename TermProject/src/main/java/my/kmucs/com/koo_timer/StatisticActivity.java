@@ -16,6 +16,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,16 +56,14 @@ public class StatisticActivity extends ActionBarActivity {
      * A placeholder fragment containing a simple view.
      */
     public static class PlaceholderFragment extends Fragment {
+        TextView titleTextView;
+
         Calendar cal;
         TimeZone timeZone;
         Cursor cursor;
 
         SQLiteDatabase sqlite;
         String sql;
-
-
-
-
 
         private ColumnChartView chart;
         private PreviewColumnChartView previewChart;
@@ -82,6 +81,8 @@ public class StatisticActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             setHasOptionsMenu(true);
             View rootView = inflater.inflate(R.layout.fragment_statistic, container, false);
+
+            titleTextView = (TextView)rootView.findViewById(R.id.txtStatisticsTitle);
 
             chart = (ColumnChartView) rootView.findViewById(R.id.chart);
             previewChart = (PreviewColumnChartView) rootView.findViewById(R.id.chart_preview);
@@ -160,6 +161,8 @@ public class StatisticActivity extends ActionBarActivity {
             int[] sec = new int[lastDayOfMonth + 1];            //해당일의 전체초를 저장하기 위한 배열
             double[] totaltime = new double[lastDayOfMonth + 1]; //전체 시간 + 분 + 초를 소수화시켜서 값을 매겨주기 위한 배열
 
+            titleTextView.setText(curYear + "/" + curMonth +"월의 데이터 통계량");
+
             for(int i=1 ; i<=lastDayOfMonth ; i++){ //배열 초기화
                 hour[i] = 0;
                 min[i] = 0;
@@ -199,13 +202,14 @@ public class StatisticActivity extends ActionBarActivity {
 
 
             int numSubcolumns = 1;
-            int numColumns = lastDayOfMonth; //columns 개수는 한달의 일 수
+            int numColumns = lastDayOfMonth ; //columns 개수는 한달의 일 수
             List<Column> columns = new ArrayList<Column>();
             List<SubcolumnValue> values;
 
-            for (int i = 1; i <= numColumns; ++i) {
 
+            for (int i = 1; i <= numColumns; ++i) {
                 values = new ArrayList<SubcolumnValue>();
+
                 for (int j = 0; j < numSubcolumns; ++j) {
                     values.add(new SubcolumnValue((float)totaltime[i], ChartUtils.pickColor()));
                 }
