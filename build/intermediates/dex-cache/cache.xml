@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f5e91fafd158d5e3ea77ed69669e95cfd6a54b5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,12 +48,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_1aa379a7ec3932b6ef4fdc0afcf7dd4a34d67062\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_44ba41337a72c7bd2f86a474e635808d5b8e02ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_5a46249d6d1a278c7e2dd0d778e7483e118571ab\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,12 +120,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_8c70d14b16a58c8d8e5012bd024bdfe0dbc195e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_6eaf7de8f5e5aa7c9173b207985a3c0c5cf4ed02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_2b02308eb897f136b44004b8c5abf684d8f10213\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_5c5aa75c541d9b337c0c88082ce47ac70327a1a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_7152ae82798e732fd0f302a52e4f6230b5209a00\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,12 +174,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_d6dff06bb083e9e54a56fdff48b42091433a7501\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_dd3893002a31c3fed980858f908c481bb9894944\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_5d5081ccf7e4ecff5212a58d7053df1c06273dff\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,267 +237,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_dfd189e20b45bb2b628465ef4cf41d6d3a98216a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_02160de27423f89027c3d12c73e06a1355887cd1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_9075384e0f2279c287463b63acb6595b0a77491a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_c75f02433dc5f61e5998a553d2ab01619e467a77\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_16ef8b7712a9c5f9c3fb6162e0d4d4945394bc81\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_cec431458b66b754620e1ce35f62b95e0ccc591b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_1442518bf36f612b11b9defacd8c105f300823f4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_1962953697a1dfcd033db02045d63880c41fb177\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_ede4d49c9bb8e7223bc5d607a1ac34bb0d0f39ca\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_e65eab390161e92d18ffb77ea111a0143bbc6d63\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_d34feb565f5f19e37a985bc65afd1a9d4809f260\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_2754c2d334865731acb55cd5e6e3e03aaa771913\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_21c53ff4f9f5946d7dc4a8ba740b9be7ab07779b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_53ed2cec719f4ef0759cd6aae854d8398f4457d3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_a696932f0f87397f9082844f02effbff94a70425\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_f0c55b87c6a68273be779a75643155b8304a6971\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_4ab3d20172b124e255ce979606ac6457cc16075b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="23310a1b8a1fad8323fe5c9af820d3dc47122020">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ffefd6a4b91e298d056a364c19d79c05fb87ed1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b207b21059b6c872030210438d1c5fcd4d055189\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_7974b99d0129aedda0cd4c488335e569401dccb6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f5e91fafd158d5e3ea77ed69669e95cfd6a54b5d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_1aa379a7ec3932b6ef4fdc0afcf7dd4a34d67062\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_5a46249d6d1a278c7e2dd0d778e7483e118571ab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_8c70d14b16a58c8d8e5012bd024bdfe0dbc195e5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_6eaf7de8f5e5aa7c9173b207985a3c0c5cf4ed02\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_2b02308eb897f136b44004b8c5abf684d8f10213\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_7152ae82798e732fd0f302a52e4f6230b5209a00\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_d6dff06bb083e9e54a56fdff48b42091433a7501\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_5d5081ccf7e4ecff5212a58d7053df1c06273dff\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -453,12 +273,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_dfd189e20b45bb2b628465ef4cf41d6d3a98216a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_02160de27423f89027c3d12c73e06a1355887cd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_6518657cd934b43c7a3008227935e121ee76605c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_9075384e0f2279c287463b63acb6595b0a77491a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_c75f02433dc5f61e5998a553d2ab01619e467a77\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -516,12 +372,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_16ef8b7712a9c5f9c3fb6162e0d4d4945394bc81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.github.lecho\hellocharts-library\1.5.8\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="56c6a22c42588628903e9dda5d8f3aa1c1b4372f">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.lecho-hellocharts-library-1.5.8_eccf3430374a951b850c0e4479b9cd21890041c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_cec431458b66b754620e1ce35f62b95e0ccc591b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_1442518bf36f612b11b9defacd8c105f300823f4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -543,12 +426,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_1962953697a1dfcd033db02045d63880c41fb177\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_338880d66b89a8dd75c7e965078d853289800a2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_ede4d49c9bb8e7223bc5d607a1ac34bb0d0f39ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_e65eab390161e92d18ffb77ea111a0143bbc6d63\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -574,8 +484,26 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="e91dbf35ac34258357c77b9ea08634b182ff9c5e">
+        sha1="819a7c1f6f154eaa686a453d89242befdafd64a8">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_17dd03f8b7c7c99f968a7bdca7fe79b01c0a69ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_d34feb565f5f19e37a985bc65afd1a9d4809f260\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_2754c2d334865731acb55cd5e6e3e03aaa771913\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -615,12 +543,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_21c53ff4f9f5946d7dc4a8ba740b9be7ab07779b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_53ed2cec719f4ef0759cd6aae854d8398f4457d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_a696932f0f87397f9082844f02effbff94a70425\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_6d11416562cf545a5469a6bda756b68655130efb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_f0c55b87c6a68273be779a75643155b8304a6971\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -675,6 +639,42 @@
         revision="24.0.3"
         sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
         <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_bb3354114a1ddc9ccdb3a0b5a67a069c168a0f85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_4ab3d20172b124e255ce979606ac6457cc16075b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="23310a1b8a1fad8323fe5c9af820d3dc47122020">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ffefd6a4b91e298d056a364c19d79c05fb87ed1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b207b21059b6c872030210438d1c5fcd4d055189\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_7974b99d0129aedda0cd4c488335e569401dccb6\classes.dex" />
     </item>
 
 </items>
