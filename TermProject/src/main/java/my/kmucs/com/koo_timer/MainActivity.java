@@ -31,6 +31,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -49,7 +51,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     TextView txtLocation;
     Intent mapIntent;
 
-
+    Switch aSwitch;
+    boolean checkedSwitch = false;
 
     Calendar cal;
     TimeZone timeZone;
@@ -106,6 +109,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         checkDangerousPermissions();
         mapIntent = new Intent(this, MapsActivity.class);
 
+        aSwitch = (Switch)findViewById(R.id.switchFunction);
 
         //데이터베이스 연결
         mydb = new MyDB(this);
@@ -145,6 +149,18 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         txtLocation = (TextView)findViewById(R.id.txt_location);
 
         printLocation();
+
+        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked){ //켜질때
+                    checkedSwitch = true;
+                }
+                else{
+                    checkedSwitch = false;
+                }
+            }
+        });
 
         countUp.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.N)
@@ -378,7 +394,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         //센서값을 측정한 센서의 종류가 근접 센서인 경우
         if (event.sensor.getType() == Sensor.TYPE_PROXIMITY) {
-            if (event.values[0] >= -0.01 && event.values[0] <= 0.01) {
+            if (event.values[0] >= -0.01 && event.values[0] <= 0.01 && checkedSwitch ==false) {
                 //near
 
                 Toast.makeText(getApplicationContext(), "near", Toast.LENGTH_SHORT).show();
@@ -392,7 +408,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     wakeLock.acquire();
                 }
 
-            } else {
+            } else if(event.values[0] <= -0.01 || event.values[0] >= 0.01 && checkedSwitch == false) {
 
                 mTimer.removeMessages(0);
                 mPauseTime = SystemClock.elapsedRealtime();
