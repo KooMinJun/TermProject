@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearRow"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/colorPrimaryBright"
+        android:id="@+id/row_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜/시간"
+        android:padding="5dp"/>
+
+    <TextView
+        android:textColor="@color/colorPrimaryBright"
+        android:id="@+id/row_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:padding="5dp"/>
+
+    <TextView
+        android:textColor="@color/colorPrimaryBright"
+        android:id="@+id/row_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        android:padding="5dp"/>
+
+
+</LinearLayout>

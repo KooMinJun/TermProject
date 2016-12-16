@@ -4,6 +4,7 @@ package my.kmucs.com.koo_timer;
  * Created by Koo on 2016-12-01.
  */
 
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.icu.util.Calendar;
 import android.icu.util.GregorianCalendar;
@@ -34,8 +35,10 @@ public class Fragment3 extends Fragment {
     int year, month, day, hour, min, sec;
 
     EditText edtTitle, edtBody;
-    Button btnSave;
+    Button btnSave, btnView;
     String titleStr, bodyStr;
+
+    Intent i;
 
 
     @RequiresApi(api = Build.VERSION_CODES.N)
@@ -47,6 +50,9 @@ public class Fragment3 extends Fragment {
         edtTitle = (EditText) rootView.findViewById(R.id.editTitle);
         edtBody = (EditText)rootView.findViewById(R.id.editBody);
         btnSave = (Button)rootView.findViewById(R.id.memoSaveBtn);
+        btnView = (Button)rootView.findViewById(R.id.memoListBtn);
+
+        i = new Intent(getActivity(), MemoListViewActivity.class);
 
         myTextDB = new MytextDB(getContext());
 
@@ -80,6 +86,12 @@ public class Fragment3 extends Fragment {
             }
         });
 
+        btnView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(i);
+            }
+        });
 
 
 
@@ -88,6 +100,19 @@ public class Fragment3 extends Fragment {
 
     }
 
+    @Override
+    public void onPause() {
+        super.onPause();
+        edtTitle.setText("");
+        edtBody.setText("");
+        //다른탭이동하고 오면 사라지게 만듦
+
+
+    }
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
 }
 
 

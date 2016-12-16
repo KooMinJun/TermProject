@@ -36,12 +36,14 @@
 
 
     <LinearLayout
+        android:orientation="horizontal"
         android:gravity="center"
         android:layout_weight="8"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <Button
+            android:layout_weight="1"
             android:id="@+id/memoSaveBtn"
             android:background="@drawable/button_shape_fragment"
             android:layout_margin="5dp"
@@ -50,6 +52,18 @@
             android:text="SAVE"
             android:textColor="@color/button_selector"
             android:textSize="15dp"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/memoListBtn"
+            android:background="@drawable/button_shape_fragment"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="VIEW"
+            android:textColor="@color/button_selector"
+            android:textSize="15dp"/>
+
+
     </LinearLayout>
 
 </LinearLayout>

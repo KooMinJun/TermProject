@@ -18,11 +18,6 @@
     <!-- 화면권한 -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <!-- 카메라후레쉬권한 -->
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <uses-feature android:name="android.hardware.camera2" />
-
     <!-- Include required permissions for Google Mobile Ads to run -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -58,6 +53,8 @@
         <activity android:name="my.kmucs.com.koo_timer.MainActivity" />
         <activity android:name="my.kmucs.com.koo_timer.StatisticActivity" />
         <activity android:name="my.kmucs.com.koo_timer.MapsActivity" />
+        <activity android:name="my.kmucs.com.koo_timer.MemoListViewActivity" />
+        <activity android:name="my.kmucs.com.koo_timer.MemoDetailListViewActivity" />
 
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity

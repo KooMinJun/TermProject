@@ -5,33 +5,40 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="32865308021688"
+    timestamp="38061202078402"
     token="209566147050622376"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="1102" />
+        duration="523" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="98" />
+        duration="47" />
     <task
         name="verifier"
-        duration="8" />
+        duration="3" />
 
     <artifact
-        location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\outputs\apk\TermProject-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="32865308021688"
+        timestamp="38011378902137"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\outputs\apk\TermProject-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="38061202078402"
+        verifier="METHOD_ADDED" >
+        <artifact
+            location="C:\Users\Koo\AndroidStudioProjects\Koo-Timer\TermProject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
