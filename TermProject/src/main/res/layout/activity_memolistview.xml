@@ -2,8 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:background="@color/colorPrimaryBright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기록된 메모"
+        android:textSize="25dp"
+        android:gravity="center"/>
     <ListView
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/colorPrimaryBright"
         android:id="@+id/listmemo"
         android:layout_width="match_parent"
         android:layout_height="match_parent">

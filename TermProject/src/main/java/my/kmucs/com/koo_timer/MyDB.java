@@ -16,7 +16,8 @@ public class MyDB extends SQLiteOpenHelper {
     @Override //최초실행시
     public void onCreate(SQLiteDatabase db) {
         //최초 DB 만들때만 실행
-        String sql = "CREATE TABLE timeRecord(_id INTEGER PRIMARY KEY AUTOINCREMENT, year INTEGER, month INTEGER, day INTEGER, hour INTEGER, min INTEGER, sec INTEGER)"; //table 이름 : timeRecord
+        String sql = "CREATE TABLE timeRecord(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                " year INTEGER, month INTEGER, day INTEGER, hour INTEGER, min INTEGER, sec INTEGER)"; //table 이름 : timeRecord
 
         //sql실행
         db.execSQL(sql);

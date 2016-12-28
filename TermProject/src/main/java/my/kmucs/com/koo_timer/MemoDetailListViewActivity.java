@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 /**
  * Created by Koo on 2016-12-17.
@@ -71,12 +72,13 @@ public class MemoDetailListViewActivity extends Activity{
             sqlite = mytextDB.getWritableDatabase();
             sqlite.execSQL(sql1);
             sqlite.execSQL(sql2);
+            Toast.makeText(getApplicationContext(), "데이터가 수정되었습니다.", Toast.LENGTH_SHORT).show();
+
             return true;
         }catch (Exception e){
             return false;
         }
     }
-
     //단건조회
     public void getInfoForCursorAdapter(int _id){
         sqlite = mytextDB.getReadableDatabase();

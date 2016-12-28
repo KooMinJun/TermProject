@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -89,6 +90,7 @@ public class MemoListViewActivity extends Activity{
         sql = "DELETE FROM MemoTable WHERE _id=" + _id;
         sqlite.execSQL(sql);
         sqlite.close();
+        Toast.makeText(getApplicationContext(), "데이터가 삭제되었습니다.", Toast.LENGTH_SHORT).show();
     }
 
     public void refresh(){

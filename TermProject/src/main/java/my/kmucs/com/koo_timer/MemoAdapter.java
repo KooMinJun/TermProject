@@ -52,8 +52,8 @@ public class MemoAdapter extends CursorAdapter {
 
         int _id = cursor.getInt(cursor.getColumnIndex("_id"));
 
-        tvDate.setText("날짜/시간 : " + date);
-        tvTitle.setText("제목 : " + title);
+        tvDate.setText("" + date);
+        tvTitle.setText("" + title);
         tvBody.setText("내용  : " + body);
 
         view.setTag(_id);

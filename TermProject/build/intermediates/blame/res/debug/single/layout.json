@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_row.xml",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\src\\main\\res\\layout\\activity_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_list_item.xml",
@@ -142,10 +142,6 @@
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maps.xml",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",

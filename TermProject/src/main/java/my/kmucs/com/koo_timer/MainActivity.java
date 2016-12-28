@@ -1,9 +1,6 @@
 package my.kmucs.com.koo_timer;
 
-import android.Manifest;
 import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -12,11 +9,6 @@ import android.hardware.SensorManager;
 import android.icu.util.Calendar;
 import android.icu.util.GregorianCalendar;
 import android.icu.util.TimeZone;
-import android.location.Address;
-import android.location.Geocoder;
-import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -24,9 +16,7 @@ import android.os.PowerManager;
 import android.os.SystemClock;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -36,20 +26,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Locale;
-
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
-    Double latitude;
-    Double longitude;
-    //위치 정보를 받을 리스너 생성
-    GPSListener gpsListener = new GPSListener();
-    long minTime = 5000; //1000 = 1초
-    float minDistance = 5; //1미터
-    int etcStr; //분류를 위한 변수
-    TextView txtLocation;
-    Intent mapIntent;
 
     Switch aSwitch;
     boolean checkedSwitch = false;
@@ -106,9 +83,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        checkDangerousPermissions();
-        mapIntent = new Intent(this, MapsActivity.class);
-
         aSwitch = (Switch)findViewById(R.id.switchFunction);
 
         //데이터베이스 연결
@@ -146,9 +120,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         mSplit = (TextView)findViewById(R.id.split);
         countUp = (Button)findViewById(R.id.countUp);
 
-        txtLocation = (TextView)findViewById(R.id.txt_location);
-
-        printLocation();
 
         aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -191,24 +162,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                         second = mEllapse.getText().toString().substring(6,8);
 
                         sqlite = mydb.getWritableDatabase(); //읽기쓰기가능한속성
-                        sql = "INSERT INTO timeRecord(year, month, day, hour, min, sec) VALUES('" +year+"', '"+month+"', '" +day+ "', '" +hour+"', '" +minute+ "','"+ second+"')";
+                        sql = "INSERT INTO timeRecord(year, month, day, hour, min, sec) " +
+                                "VALUES('" +year+"', '"+month+"', '" +day+ "', '" +hour+"', '" +minute+ "','"+ second+"')";
 
 
                         Log.d("SQL : ", sql);
                         sqlite.execSQL(sql);
 
                         sqlite.close();
-
-                        // 임의의 데이터값을 넣어서 체크해보려고
-//                        sqlite = mydb.getWritableDatabase();
-//                        for(int i = 1 ; i<=15 ; i++) {
-//                            sql = "INSERT INTO timeRecord(year, month, day, hour, min, sec) VALUES('" + 2016 + "', '" + 12 + "', '" + i + "', '" + 0 + "', '" + (int)(Math.random()*10) + "','" + (int)(Math.random()*60)+ "')";
-//                            Log.d("SQL : ", sql);
-//                            sqlite.execSQL(sql);
-//
-//
-//                        }
-//                        sqlite.close();
 
                         Toast.makeText(getApplicationContext(), "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show();
                         mEllapse.setText("00:00:00");
@@ -218,15 +179,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
         });
 
-        txtLocation.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mapIntent.putExtra("lat", latitude);
-                mapIntent.putExtra("lng", longitude);
-                startActivity(mapIntent);
 
-            }
-        });
 
 
 
@@ -276,90 +229,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         });
     }
 
-    private void printLocation() {
-        LocationManager manager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-        try{
-            //gps를 이용한 위치 요청(주기적으로)
-            manager.requestLocationUpdates(LocationManager.GPS_PROVIDER, minTime, minDistance,gpsListener);
-            //네트워크를 이용한 위치 요청(주기적으로)
-            manager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, minTime, minDistance, gpsListener);
-            //위치 확인이 안되는 경우에도 최근에 확인된 위치 정보 먼저 확인
-            Location lastLocation = manager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-            if(lastLocation != null){
-                latitude = lastLocation.getLatitude();
-                longitude = lastLocation.getLongitude();
-
-                txtLocation.setText("\n현재위치 : " + getAddress(getApplicationContext(),latitude,longitude));
-
-            }
-        }catch (SecurityException e){
-            e.printStackTrace();
-        }
-    }
-
-    //위치권한확인
-    private void checkDangerousPermissions(){
-        String[] permissions = {Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION};
-
-        int permissionCheck = PackageManager.PERMISSION_GRANTED;
-        for(int i=0 ; i< permissions.length; i++){
-            permissionCheck = ContextCompat.checkSelfPermission(this, permissions[i]);
-            if(permissionCheck == PackageManager.PERMISSION_DENIED){
-                break;
-            }
-        }
-        if(permissionCheck == PackageManager.PERMISSION_GRANTED){
-            Toast.makeText(this, "권한 있음", Toast.LENGTH_LONG).show();
-        }
-        else{
-            Toast.makeText(this, "권한 없음", Toast.LENGTH_LONG).show();
-
-            if(ActivityCompat.shouldShowRequestPermissionRationale(this,permissions[0])){
-                Toast.makeText(this,"권한 설명 필요함.", Toast.LENGTH_LONG).show();
-            }else{
-                ActivityCompat.requestPermissions(this,permissions,1);
-            }
-        }
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        if(requestCode == 1){
-            for(int i=0 ; i<permissions.length ; i++){
-                if(grantResults[i] == PackageManager.PERMISSION_GRANTED){
-                    Toast.makeText(this, permissions[i] + "권한이 승인됨.", Toast.LENGTH_LONG).show();
-                }
-                else{
-                    Toast.makeText(this,permissions[i] + "권한이 승인되지 않음.", Toast.LENGTH_LONG).show();
-                }
-            }
-        }
-    }
-
-    //위도 경도로 주소구하기
-    public String getAddress(Context mContext, double lat, double lng){
-        String nowAddress = "현재 위치를 확인할 수 없습니다.";
-        Geocoder geocoder = new Geocoder(mContext, Locale.KOREA);
-        List<Address> address;
-        try{
-            if(geocoder != null){
-                //세번쨰 파라미터는 좌표에 대해 주소를 리턴받는 개수
-                //한 좌표에 대해 두개이상의 이름의 존재할 수 있기에 주소배열을 리턴받기위해 최대갯수 설정
-                address = geocoder.getFromLocation(lat, lng, 1);
-
-                if(address != null && address.size() > 0){
-                    //주소 받아오기
-                    String currentLocationAddress = address.get(0).getAddressLine(0).toString();
-                    nowAddress = currentLocationAddress;
-                }
-            }
-        }catch (IOException e){
-            Toast.makeText(getBaseContext(), "주소를 가져올 수 없습니다.",Toast.LENGTH_SHORT).show();
-            e.printStackTrace();
-        }
-        return nowAddress;
-    }
-
 
 
 
@@ -397,7 +266,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             if (event.values[0] >= -0.01 && event.values[0] <= 0.01 && checkedSwitch ==false) {
                 //near
 
-                Toast.makeText(getApplicationContext(), "near", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "near", Toast.LENGTH_SHORT).show();
                 //현재값 가져옴
                 now = SystemClock.elapsedRealtime();
                 //베이스타임 = 베이스타임 + (now - mPauseTime)
@@ -414,7 +283,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 mPauseTime = SystemClock.elapsedRealtime();
                 mStatus = 3;
                 //far
-                Toast.makeText(getApplicationContext(), "far", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "far", Toast.LENGTH_SHORT).show();
                 if(wakeLock.isHeld()){
                     wakeLock.release();
                 }
@@ -450,37 +319,4 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         super.onDestroy();
     }
 
-    private class GPSListener implements LocationListener {
-        //위치 정보가 확인될때 자동 호출되는 메소드
-        @Override
-        public void onLocationChanged(Location location) {
-            latitude = location.getLatitude();
-            longitude = location.getLongitude();
-
-            String msg = "\n위도 : " + latitude + "\n경도 : " + longitude;
-            Log.i("GPSListener", msg);
-
-
-            Toast.makeText(getApplicationContext(), "위치정보가 업데이트되었습니다. " , Toast.LENGTH_SHORT).show();
-
-            txtLocation.setText("\n현재위치 : " + getAddress(getApplicationContext(),latitude,longitude));
-
-
-        }
-
-        @Override
-        public void onStatusChanged(String provider, int status, Bundle extras) {
-
-        }
-
-        @Override
-        public void onProviderEnabled(String provider) {
-
-        }
-
-        @Override
-        public void onProviderDisabled(String provider) {
-
-        }
-    }
 }

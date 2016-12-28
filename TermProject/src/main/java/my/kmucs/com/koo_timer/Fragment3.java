@@ -14,12 +14,12 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 /**
  * Created by Koo on 2016-11-21.
@@ -64,22 +64,39 @@ public class Fragment3 extends Fragment {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sqlite = myTextDB.getWritableDatabase();
 
                 titleStr = edtTitle.getText().toString();
                 bodyStr = edtBody.getText().toString();
-                year = cal.get(Calendar.YEAR);
-                month = cal.get(Calendar.MONTH) + 1;
-                day = cal.get(Calendar.DAY_OF_MONTH);
-                hour = cal.get(Calendar.HOUR);
-                min = cal.get(Calendar.MINUTE);
-                sec = cal.get(Calendar.SECOND);
 
-                sql = "INSERT INTO MemoTable(year, month, day, hour, min, sec, title, body) VALUES('" +year+"', '"+month+"', '" +day+ "', '" +hour+"', '" +min+ "','"+ sec+"', '"+titleStr+"', '"+bodyStr+"')";
-                sqlite.execSQL(sql);
-                Log.e("ssssssssss", sql);
 
-                sqlite.close();
+                if(titleStr.equalsIgnoreCase("")){
+                    Toast.makeText(getContext(), "제목을 입력하세요.", Toast.LENGTH_SHORT).show();
+                }
+
+                else if(bodyStr.equalsIgnoreCase("")){
+                    Toast.makeText(getContext(), "내용을 입력하세요.", Toast.LENGTH_SHORT).show();
+                }
+
+                else {
+
+                    sqlite = myTextDB.getWritableDatabase();
+                    year = cal.get(Calendar.YEAR);
+                    month = cal.get(Calendar.MONTH) + 1;
+                    day = cal.get(Calendar.DAY_OF_MONTH);
+                    hour = cal.get(Calendar.HOUR);
+                    min = cal.get(Calendar.MINUTE);
+                    sec = cal.get(Calendar.SECOND);
+
+                    sql = "INSERT INTO MemoTable(year, month, day, hour, min, sec, title, body) VALUES('" + year + "', '" + month + "', '" + day + "', '" + hour + "', '" + min + "','" + sec + "', '" + titleStr + "', '" + bodyStr + "')";
+                    sqlite.execSQL(sql);
+
+                    sqlite.close();
+
+                    Toast.makeText(getContext(), "데이터가 저장되었습니다.", Toast.LENGTH_SHORT).show();
+
+                    edtTitle.setText("");
+                    edtBody.setText("");
+                }
 
 
 

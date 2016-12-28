@@ -240,12 +240,12 @@
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_forward_30_grey600_36.png"
     },
     {
-        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_circle_filled_grey600_36.png",
-        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_circle_filled_grey600_36.png"
-    },
-    {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\powered_by_google_light.png",
         "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.0.1\\res\\drawable-xxxhdpi-v4\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_circle_filled_grey600_36.png",
+        "source": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_circle_filled_grey600_36.png"
     },
     {
         "merged": "C:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_cast_white.png",
