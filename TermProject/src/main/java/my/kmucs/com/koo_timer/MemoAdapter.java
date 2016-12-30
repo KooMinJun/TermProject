@@ -44,9 +44,7 @@ public class MemoAdapter extends CursorAdapter {
         String date = cursor.getString(cursor.getColumnIndex("year"))
                 + "년 " + cursor.getString(cursor.getColumnIndex("month"))
                 + "월 " + cursor.getString(cursor.getColumnIndex("day"))
-                + "일 " + cursor.getString(cursor.getColumnIndex("hour"))
-                + "시 " + cursor.getString(cursor.getColumnIndex("min"))
-                + "분 " + cursor.getString(cursor.getColumnIndex("sec")) + "초";
+                + "일 ";
         String title = cursor.getString(cursor.getColumnIndex("title"));
         String body = cursor.getString(cursor.getColumnIndex("body"));
 
@@ -54,7 +52,7 @@ public class MemoAdapter extends CursorAdapter {
 
         tvDate.setText("" + date);
         tvTitle.setText("" + title);
-        tvBody.setText("내용  : " + body);
+        tvBody.setText(" " + body);
 
         view.setTag(_id);
     }

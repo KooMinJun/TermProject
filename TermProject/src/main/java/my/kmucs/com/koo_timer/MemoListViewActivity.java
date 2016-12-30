@@ -39,17 +39,17 @@ public class MemoListViewActivity extends Activity{
 
         listView = (ListView)findViewById(R.id.listmemo);
         i = new Intent(getApplicationContext(), MemoDetailListViewActivity.class);
-        
+
         //데이터베이스 연결
         mytextDB = new MytextDB(this);
-        
+
         //arrlist에 데이터베이스 파일들을 읽어서 대입, 데이터 셋팅
         getMemoForCursorAdapter();
-        
+
         //listview 클릭시 이벤트 구현
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener(){
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 final int _id = (int)view.getTag();
 
 
@@ -69,17 +69,63 @@ public class MemoListViewActivity extends Activity{
                 });
 
                 //negative버튼 수정
-                alertDlg.setNegativeButton(R.string.memo_alert_button_no, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        i.putExtra("_id", _id);
-
-                        startActivityForResult(i,1);
-                        dialog.dismiss();
-                    }
-                });
+//                alertDlg.setNegativeButton(R.string.memo_alert_button_no, new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        i.putExtra("_id", _id);
+//
+//                        startActivityForResult(i,1);
+//                        dialog.dismiss();
+//                    }
+//                });
 
                 alertDlg.show();
+                return true;
+            }
+
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                final int _id = (int)view.getTag();
+//
+//
+//                //팝업창
+//                AlertDialog.Builder alertDlg = new AlertDialog.Builder(MemoListViewActivity.this); //여기서 뜨게하겠다
+//                alertDlg.setTitle(R.string.memo_alert_title_question);
+//                alertDlg.setMessage(R.string.memo_alert_msg);
+//
+//                //positive버튼 삭제
+//                alertDlg.setPositiveButton(R.string.memo_alert_button_yes, new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        deleteInfo(_id);
+//                        dialog.dismiss();
+//                        refresh();
+//                    }
+//                });
+//
+//                //negative버튼 수정
+//                alertDlg.setNegativeButton(R.string.memo_alert_button_no, new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        i.putExtra("_id", _id);
+//
+//                        startActivityForResult(i,1);
+//                        dialog.dismiss();
+//                    }
+//                });
+//
+//                alertDlg.show();
+//            }
+        });
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                final int _id = (int)view.getTag();
+
+                i.putExtra("_id", _id);
+                startActivityForResult(i,1);
             }
         });
     }
@@ -90,7 +136,7 @@ public class MemoListViewActivity extends Activity{
         sql = "DELETE FROM MemoTable WHERE _id=" + _id;
         sqlite.execSQL(sql);
         sqlite.close();
-        Toast.makeText(getApplicationContext(), "데이터가 삭제되었습니다.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "데이터가 삭제되었습니다.\n(만약 마지막 남은 것을 삭제한다면 한번만 나갔다가 들어와주세요, 공부 더 할게요..)", Toast.LENGTH_SHORT).show();
     }
 
     public void refresh(){

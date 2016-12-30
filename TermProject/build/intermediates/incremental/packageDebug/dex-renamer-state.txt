@@ -1,4 +1,4 @@
-#Wed Dec 28 21:11:12 KST 2016
+#Fri Dec 30 23:55:01 KST 2016
 base.0=C\:\\Users\\Koo\\AndroidStudioProjects\\Koo-Timer\\TermProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5ffefd6a4b91e298d056a364c19d79c05fb87ed1
 renamed.1=classes.dex
 renamed.0=classes2.dex

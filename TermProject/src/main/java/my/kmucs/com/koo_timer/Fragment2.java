@@ -38,7 +38,7 @@ public class Fragment2 extends Fragment {
 
         btn_all_reset = (Button)rootView.findViewById(R.id.all_data_reset_btn);
         btn_statistic = (Button)rootView.findViewById(R.id.statistic);
-        i = new Intent(getActivity(), StatisticActivity.class);
+        i = new Intent(getActivity(), StatisticActivity02.class);
 
         btn_statistic.setOnClickListener(new View.OnClickListener(){
 

@@ -69,11 +69,8 @@ public class Fragment3 extends Fragment {
                 bodyStr = edtBody.getText().toString();
 
 
-                if(titleStr.equalsIgnoreCase("")){
-                    Toast.makeText(getContext(), "제목을 입력하세요.", Toast.LENGTH_SHORT).show();
-                }
 
-                else if(bodyStr.equalsIgnoreCase("")){
+                if(bodyStr.equalsIgnoreCase("")){
                     Toast.makeText(getContext(), "내용을 입력하세요.", Toast.LENGTH_SHORT).show();
                 }
 

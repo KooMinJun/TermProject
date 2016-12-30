@@ -25,6 +25,7 @@
         </activity>
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".StatisticActivity"></activity>
+        <activity android:name=".StatisticActivity02"></activity>
         <activity android:name=".MemoListViewActivity"></activity>
         <activity android:name=".MemoDetailListViewActivity"></activity>
 

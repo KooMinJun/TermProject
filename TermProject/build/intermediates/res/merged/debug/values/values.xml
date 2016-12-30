@@ -979,7 +979,7 @@
     <string name="fragment2_save_alert_title_question">정말로 삭제하시겠습니까?</string>
     <string name="memo_alert_button_no">수정</string>
     <string name="memo_alert_button_yes">삭제</string>
-    <string name="memo_alert_msg">어떤 작업을 하시겠습니까?</string>
+    <string name="memo_alert_msg">메모를 삭제하시겠습니까?</string>
     <string name="memo_alert_title_question">질문</string>
     <string name="mr_button_content_description">Cast button</string>
     <string name="mr_chooser_searching">Finding devices</string>

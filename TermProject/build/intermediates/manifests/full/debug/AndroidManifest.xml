@@ -41,6 +41,7 @@
         </activity>
         <activity android:name="my.kmucs.com.koo_timer.MainActivity" />
         <activity android:name="my.kmucs.com.koo_timer.StatisticActivity" />
+        <activity android:name="my.kmucs.com.koo_timer.StatisticActivity02" />
         <activity android:name="my.kmucs.com.koo_timer.MemoListViewActivity" />
         <activity android:name="my.kmucs.com.koo_timer.MemoDetailListViewActivity" />
 

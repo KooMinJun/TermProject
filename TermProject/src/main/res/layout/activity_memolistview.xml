@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryBright"
     android:orientation="vertical" android:layout_width="match_parent"
+
     android:layout_height="match_parent">
     <TextView
         android:background="@color/colorPrimaryBright"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="기록된 메모"
+        android:text="메모"
         android:textSize="25dp"
         android:gravity="center"/>
     <ListView
-        android:background="@color/colorPrimaryBright"
+        android:layout_margin="10dp"
+        android:dividerHeight="10dp"
+        android:background="#ffffff"
+        android:divider="@color/colorPrimaryBright"
         android:id="@+id/listmemo"
+        android:scrollbarSize="1dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
